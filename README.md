@@ -18,6 +18,8 @@ The goal of this project is to build an accurate, efficient, and scalable model 
 
 We would like to express our gratitude to **Jainil Shah** for creating and sharing the **Online Payment Fraud Detection dataset** on Kaggle. This dataset, which contains detailed historical information about fraudulent transactions, has been invaluable in building and training the machine learning model for detecting fraud in online payments. 
 
+🌟 The dataset can be found on [Kaggle](https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection/data). Your contribution is greatly appreciated! 🙌
+
 ## 🧑‍🔬 Exploratory Data Analysis (EDA)
 
 During the **EDA** phase, the following insights were gathered from the dataset:
