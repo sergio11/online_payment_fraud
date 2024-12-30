@@ -115,25 +115,57 @@ To ensure optimal training and avoid overfitting, **EarlyStopping** was implemen
 - **Patience**: Set to **10 epochs**, meaning the model would stop training if the validation loss didn't improve after 10 consecutive epochs.
 - **Restoring Best Weights**: The model’s best weights were restored from the epoch where validation loss was the lowest, ensuring the model was in the best state at the end of training.
 
-## 🔮 Conclusion
+## 📊 Model Evaluation: Confusion Matrix & Classification Report
 
-This project has successfully identified key insights from the dataset, cleaned and preprocessed the data, and built a robust **Deep Neural Network (DNN)** model for fraud detection.
+### **Confusion Matrix:**
+The confusion matrix provides a detailed breakdown of the model's predictions, showcasing the model's performance in distinguishing between fraud and non-fraud transactions.
 
-### Key Takeaways:
-- **Fraud detection improvements are needed** due to high misclassification rates and incorrect flagging.
-- **Targeting high-value transactions** (₹1 - ₹4 Lakh) will help in detecting a significant portion of fraud.
-- The **DNN model** performed well in learning complex patterns in the data, and **SMOTE** was crucial for handling the class imbalance.
+The confusion matrix for the model's predictions is as follows:
 
-### Next Steps:
-- Further refine feature engineering techniques.
-- Implement more advanced techniques for fraud detection, such as ensemble methods or reinforcement learning.
-- Continuously monitor and retrain the model with new data to improve accuracy and reliability.
+```python
+[[593518 41923] [ 14886 620555]]
+```
 
-## 🚀 Future Work
+**Explanation:**
+- **True Negatives (TN)**: 593,518 – Non-fraud transactions correctly identified as non-fraud.
+- **False Positives (FP)**: 41,923 – Non-fraud transactions incorrectly classified as fraud.
+- **False Negatives (FN)**: 14,886 – Fraud transactions incorrectly classified as non-fraud.
+- **True Positives (TP)**: 620,555 – Fraud transactions correctly identified as fraud.
 
-- **Model Fine-Tuning**: Explore hyperparameter optimization techniques such as **Grid Search** or **Random Search** to improve model performance.
-- **Real-Time Fraud Detection**: Deploy the model in real-time systems for live fraud detection on financial transactions.
-- **Enhanced Feature Engineering**: Experiment with additional features like transaction time, geolocation, and other behavioral data to improve model accuracy.
+### **Classification Report:**
+The classification report provides key metrics for evaluating the model's performance across both classes (fraud and non-fraud).
+
+- **Precision (Fraud)**: 0.9367 – The model correctly identified 93.67% of the fraudulent transactions.
+- **Recall (Fraud)**: 0.9766 – The model correctly detected 97.66% of all fraudulent transactions.
+- **F1-score (Fraud)**: 0.9562 – The harmonic mean of precision and recall, reflecting strong model performance.
+  
+- **Precision (Non-Fraud)**: 0.9755 – The model correctly identified 97.55% of non-fraudulent transactions.
+- **Recall (Non-Fraud)**: 0.9340 – The model correctly detected 93.40% of non-fraudulent transactions.
+- **F1-score (Non-Fraud)**: 0.9543 – A balanced score for non-fraud detection.
+
+**Overall Performance:**
+- **Accuracy**: 0.9553 – The model achieved an accuracy of 95.53% on the test set.
+- **Macro Average**:
+  - **Precision**: 0.9561
+  - **Recall**: 0.9553
+  - **F1-score**: 0.9553
+- **Weighted Average**:
+  - **Precision**: 0.9561
+  - **Recall**: 0.9553
+  - **F1-score**: 0.9553
+
+### **Key Insights from Evaluation:**
+1. **High Recall for Fraud Detection (Class 1.0)**: The model performs exceptionally well at detecting fraud, capturing 97.66% of fraudulent transactions with high precision (93.67%).
+   
+2. **Good Performance for Non-Fraud (Class 0.0)**: While the recall for non-fraud is slightly lower (93.40%), the precision remains high (97.55%), indicating that the model is generally accurate in identifying non-fraudulent transactions as well.
+
+3. **Class Imbalance Handling**: Despite the significant class imbalance (fraud transactions representing only 0.13% of total transactions), the model successfully managed the imbalance using **SMOTE** and **class weights**, ensuring that fraud detection was effective without overfitting the non-fraud class.
+
+4. **Error Analysis**: There are still some false positives (non-fraud transactions incorrectly predicted as fraud) and false negatives (fraud transactions missed by the model), but these errors are relatively low, suggesting that the model performs well for both classes.
+
+## 🔮 **Conclusion:**
+- The model is highly effective at identifying fraudulent transactions while maintaining a strong balance between precision and recall for both fraud and non-fraud transactions.
+- The **DNN model** has shown its capability to handle complex patterns in fraud detection, especially with the help of **SMOTE** for balancing the dataset and **class weighting** during training.
 
 ## 📚 Requirements
 
