@@ -176,3 +176,67 @@ The classification report provides key metrics for evaluating the model's perfor
 - imbalanced-learn
 - matplotlib
 - seaborn
+
+## **🙏 Acknowledgments**
+
+
+We would like to express our gratitude to **Jainil Shah** for creating and sharing the **Online Payment Fraud Detection dataset** on Kaggle. This dataset, which contains detailed historical information about fraudulent transactions, has been invaluable in building and training the machine learning model for detecting fraud in online payments. 
+
+Thanks to this comprehensive dataset, we were able to explore key features and gain valuable insights into the patterns that distinguish fraudulent transactions from legitimate ones. We highly appreciate Jainil Shah's contribution to the data science community by providing this resource for further research and development in fraud detection.
+  
+A huge **thank you** to **jainilcoder** for providing the dataset that made this project possible! 🌟 The dataset can be found on [Kaggle](https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection/data). Your contribution is greatly appreciated! 🙌
+
+🙏 I would like to extend my heartfelt gratitude to [Santiago Hernández, an expert in Cybersecurity and Artificial Intelligence](https://www.udemy.com/user/shramos/). His incredible course on Deep Learning, available at Udemy, was instrumental in shaping the development of this project. The insights and techniques learned from his course were crucial in crafting the neural network architecture used in this classifier.
+
+References
+* [https://www.kaggle.com/code/kavya2099/online-payment-fraud-detection-eda](https://www.kaggle.com/code/kavya2099/online-payment-fraud-detection-eda)
+* [https://www.pluralsight.com/guides/cleaning-up-data-from-outliers](https://www.pluralsight.com/guides/cleaning-up-data-from-outliers)
+* [analyticsvidhya.com/blog/2021/05/detecting-and-treating-outliers-treating-the-odd-one-out/](analyticsvidhya.com/blog/2021/05/detecting-and-treating-outliers-treating-the-odd-one-out/)
+* [https://www.analyticsvidhya.com/blog/2020/07/univariate-analysis-visualization-with-illustrations-in-python/](https://www.analyticsvidhya.com/blog/2020/07/univariate-analysis-visualization-with-illustrations-in-python/)
+* [https://jovian.ai/aakashns-6l3/us-accidents-analysis](https://jovian.ai/aakashns-6l3/us-accidents-analysis)
+* [https://thinkingneuron.com/how-to-visualize-the-relationship-between-two-categorical-variables-in-python/](https://thinkingneuron.com/how-to-visualize-the-relationship-between-two-categorical-variables-in-python/)
+
+## Visitors Count
+
+<img width="auto" src="https://profile-counter.glitch.me/online_payment_fraud/count.svg" />
+
+## Please Share & Star the repository to keep me motivated.
+<a href = "https://github.com/sergio11/online_payment_fraud/stargazers">
+   <img src = "https://img.shields.io/github/stars/sergio11/online_payment_fraud" />
+</a>
+
+## License ⚖️
+
+This project is licensed under the MIT License, an open-source software license that allows developers to freely use, copy, modify, and distribute the software. 🛠️ This includes use in both personal and commercial projects, with the only requirement being that the original copyright notice is retained. 📄
+
+Please note the following limitations:
+
+- The software is provided "as is", without any warranties, express or implied. 🚫🛡️
+- If you distribute the software, whether in original or modified form, you must include the original copyright notice and license. 📑
+- The license allows for commercial use, but you cannot claim ownership over the software itself. 🏷️
+
+The goal of this license is to maximize freedom for developers while maintaining recognition for the original creators.
+
+```
+MIT License
+
+Copyright (c) 2024 Dream software - Sergio Sánchez 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+``
