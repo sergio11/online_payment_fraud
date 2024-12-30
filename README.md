@@ -63,6 +63,37 @@ The final model architecture chosen was a **Deep Neural Network (DNN)**. The cho
   - **Third Hidden Layer**: 16 nodes for further abstraction.
 - **Output Layer**: 1 node with a **sigmoid activation** function to predict the probability of fraud (1 for fraud, 0 for non-fraud).
 
+```python
+from keras.models import Sequential
+from keras.layers import Dense, Dropout
+from keras.optimizers import Adam
+
+# Initialize the Neural Network model
+model = Sequential()
+
+# Input Layer (First Hidden Layer)
+model.add(Dense(128, input_dim=X_train.shape[1], activation='relu'))
+
+# Dropout layer to prevent overfitting
+model.add(Dropout(0.2))
+
+# Additional Hidden Layers
+model.add(Dense(64, activation='relu'))  # Second Hidden Layer
+model.add(Dropout(0.2))  # Dropout layer for regularization
+
+model.add(Dense(32, activation='relu'))  # Third Hidden Layer
+model.add(Dropout(0.2))  # Dropout layer for regularization
+
+# Output Layer (for binary classification)
+model.add(Dense(1, activation='sigmoid'))  # Sigmoid for binary classification
+
+# Compile the model
+model.compile(optimizer=Adam(learning_rate=0.001), loss='binary_crossentropy', metrics=['accuracy'])
+
+# Summary of the model to verify architecture
+model.summary()
+```
+
 ## ⚡ Model Training with Early Stopping
 
 To ensure optimal training and avoid overfitting, **EarlyStopping** was implemented.
