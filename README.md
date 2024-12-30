@@ -16,6 +16,8 @@ The goal of this project is to build an accurate, efficient, and scalable model 
 
 🙏 I would like to extend my heartfelt gratitude to [Santiago Hernández, an expert in Cybersecurity and Artificial Intelligence](https://www.udemy.com/user/shramos/). His incredible course on Deep Learning, available at Udemy, was instrumental in shaping the development of this project. The insights and techniques learned from his course were crucial in crafting the neural network architecture used in this classifier.
 
+We would like to express our gratitude to **Jainil Shah** for creating and sharing the **Online Payment Fraud Detection dataset** on Kaggle. This dataset, which contains detailed historical information about fraudulent transactions, has been invaluable in building and training the machine learning model for detecting fraud in online payments. 
+
 ## 🧑‍🔬 Exploratory Data Analysis (EDA)
 
 During the **EDA** phase, the following insights were gathered from the dataset:
@@ -178,7 +180,6 @@ The classification report provides key metrics for evaluating the model's perfor
 - seaborn
 
 ## **🙏 Acknowledgments**
-
 
 We would like to express our gratitude to **Jainil Shah** for creating and sharing the **Online Payment Fraud Detection dataset** on Kaggle. This dataset, which contains detailed historical information about fraudulent transactions, has been invaluable in building and training the machine learning model for detecting fraud in online payments. 
 
