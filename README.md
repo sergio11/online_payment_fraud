@@ -1,8 +1,20 @@
 # Fraud Detection Model with Deep Neural Networks (DNN)
 
-## Overview
+This project focuses on developing an advanced **Fraud Detection** model using **Deep Neural Networks (DNN)** to identify fraudulent transactions in financial data. Fraud detection is an essential problem in the financial industry, where identifying fraudulent activities promptly can save significant amounts of money and protect customers. 
 
-This project involves building a **Fraud Detection** model using **Deep Neural Networks (DNN)**. The goal is to predict fraudulent transactions in a financial dataset. This project covers the entire process, from **Exploratory Data Analysis (EDA)** to data preprocessing, model architecture, and training.
+The goal of this project is to build an accurate, efficient, and scalable model capable of detecting fraud in a highly imbalanced dataset, where fraudulent transactions represent only a small fraction of all transactions. This project follows a comprehensive approach to solving the problem by employing **Exploratory Data Analysis (EDA)**, **data preprocessing**, and leveraging **deep learning techniques** to train a model capable of distinguishing between fraudulent and legitimate transactions.
+
+<p align="center">
+   <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" />
+   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+   <img src="https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white" />
+   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+   <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
+   <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
+   <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
+</p>
+
+🙏 I would like to extend my heartfelt gratitude to [Santiago Hernández, an expert in Cybersecurity and Artificial Intelligence](https://www.udemy.com/user/shramos/). His incredible course on Deep Learning, available at Udemy, was instrumental in shaping the development of this project. The insights and techniques learned from his course were crucial in crafting the neural network architecture used in this classifier.
 
 ## 🧑‍🔬 Exploratory Data Analysis (EDA)
 
