@@ -33,6 +33,9 @@ In a world plagued by fake news, this project tackles the challenge of **authent
 ### [🛡️ IoT Network Malware Classifier with Deep Learning Neural Network Architecture 🚀](https://github.com/sergio11/iot_network_malware_classifier)  
 The Internet of Things (IoT) is transforming the world, but it also introduces new security challenges. This project leverages **Deep Learning Neural Networks** to classify and detect malware in IoT network traffic. By analyzing patterns with AI, it provides **proactive cybersecurity solutions** to safeguard interconnected devices. Explore the intricate process of model design and training with the **Keras framework**, detailed in the accompanying Jupyter Notebook.
 
+### [Spam Email Classification using LSTM 📧🤖](https://github.com/sergio11/spam_email_classifier_lstm)
+This project uses a Bi-directional LSTM model 📧🤖 to classify emails as spam or legitimate, utilizing NLP techniques like tokenization, padding, and stopword removal. It aims to create an effective email classifier 💻📊 while addressing overfitting with strategies like early stopping 🚫.
+
 Take a dive into these projects to see how **deep learning** is solving real-world problems and shaping the future of AI applications. Let's innovate together! 🚀
 
 ## 🧑‍🔬 Exploratory Data Analysis (EDA)
