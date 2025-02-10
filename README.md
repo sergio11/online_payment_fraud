@@ -39,6 +39,9 @@ This project uses a Bi-directional LSTM model 📧🤖 to classify emails as spa
 ### [🧠🚀 AI-Powered Brain Tumor Classification](https://github.com/sergio11/brain_tumor_classification_cnn)  
 🧠🚀 AI-Powered Brain Tumor Classification: Leveraging Deep Learning with CNNs and Transfer Learning to classify brain tumors from MRI scans, enabling fast and accurate diagnostics. 🌐⚡
 
+### [Predicting Diabetes Diagnosis Using Machine Learning 📊💉](https://github.com/sergio11/diabetes_prediction_ml)
+Predicting diabetes using machine learning models based on medical data 📊💉. The goal is to create an accurate and reliable diagnostic tool for early detection 🏥🤖.
+
 Take a dive into these projects to see how **deep learning** is solving real-world problems and shaping the future of AI applications. Let's innovate together! 🚀
 
 ## 🧑‍🔬 Exploratory Data Analysis (EDA)
