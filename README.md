@@ -4,13 +4,6 @@ This project focuses on developing an advanced **Fraud Detection** model using *
 
 The goal of this project is to build an accurate, efficient, and scalable model capable of detecting fraud in a highly imbalanced dataset, where fraudulent transactions represent only a small fraction of all transactions. This project follows a comprehensive approach to solving the problem by employing **Exploratory Data Analysis (EDA)**, **data preprocessing**, and leveraging **deep learning techniques** to train a model capable of distinguishing between fraudulent and legitimate transactions.
 
-## ⚠️ Disclaimer  
-**This project was developed for educational and research purposes only.** It is an experimental implementation of **deep learning techniques for fraud detection** and should not be used in production systems or real-world financial applications.  
-
-The model presented in this repository **has not been audited for regulatory compliance, financial security, or operational robustness**. Fraud detection in real financial environments requires rigorous testing, domain expertise, and compliance with legal and ethical standards.  
-
-**Users should not rely on this project for real-time fraud prevention or financial decision-making.** Always consult industry professionals and use verified fraud detection solutions in real-world applications.  
-
 <p align="center">
    <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" />
    <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
@@ -26,6 +19,13 @@ The model presented in this repository **has not been audited for regulatory com
 We would like to express our gratitude to **Jainil Shah** for creating and sharing the **Online Payment Fraud Detection dataset** on Kaggle. This dataset, which contains detailed historical information about fraudulent transactions, has been invaluable in building and training the machine learning model for detecting fraud in online payments. 
 
 🌟 The dataset can be found on [Kaggle](https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection/data). Your contribution is greatly appreciated! 🙌
+
+## ⚠️ Disclaimer  
+**This project was developed for educational and research purposes only.** It is an experimental implementation of **deep learning techniques for fraud detection** and should not be used in production systems or real-world financial applications.  
+
+The model presented in this repository **has not been audited for regulatory compliance, financial security, or operational robustness**. Fraud detection in real financial environments requires rigorous testing, domain expertise, and compliance with legal and ethical standards.  
+
+**Users should not rely on this project for real-time fraud prevention or financial decision-making.** Always consult industry professionals and use verified fraud detection solutions in real-world applications.  
 
 ## 🌟 Explore My Other Cutting-Edge AI Projects! 🌟
 
