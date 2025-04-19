@@ -1,8 +1,14 @@
-# Fraud Detection Model with Deep Neural Networks (DNN)
+# 💳 Fraud Detection with Deep Neural Networks (DNN) 🧠⚠️
 
-This project focuses on developing an advanced **Fraud Detection** model using **Deep Neural Networks (DNN)** to identify fraudulent transactions in financial data. Fraud detection is an essential problem in the financial industry, where identifying fraudulent activities promptly can save significant amounts of money and protect customers. 
+As part of my journey through a **Deep Learning course**, I embarked on this project to explore one of the most impactful and challenging areas in applied AI: **fraud detection in financial transactions**. 💰🔍 This wasn’t just an exercise in model building — it was an opportunity to learn how **neural networks** can be used to identify rare, high-risk behaviors in real-world, imbalanced datasets. 
 
-The goal of this project is to build an accurate, efficient, and scalable model capable of detecting fraud in a highly imbalanced dataset, where fraudulent transactions represent only a small fraction of all transactions. This project follows a comprehensive approach to solving the problem by employing **Exploratory Data Analysis (EDA)**, **data preprocessing**, and leveraging **deep learning techniques** to train a model capable of distinguishing between fraudulent and legitimate transactions.
+In fraud detection, the stakes are high: **fraudulent transactions often make up less than 1%** of the data, making the problem incredibly difficult to tackle with traditional classifiers. 🚨 This imbalance presented a fascinating challenge — and the perfect chance to apply deep learning techniques in a meaningful way.
+
+Throughout the project, I performed detailed **Exploratory Data Analysis (EDA)** and applied **preprocessing techniques** such as normalization and resampling to ensure the data was ready for training. Then, I designed a **custom Deep Neural Network architecture** optimized for binary classification, experimenting with **activation functions**, **dropout**, **loss functions**, and various **optimization strategies**. The process taught me a great deal about **model regularization**, **handling overfitting**, and how to evaluate models beyond just accuracy — using metrics like **precision**, **recall**, and **F1-score** to better understand performance in an imbalanced context. 📊🧪
+
+A special **thank you** goes out to [**Kavya's EDA notebook on Kaggle**](https://www.kaggle.com/code/kavya2099/online-payment-fraud-detection-eda) 🙏 — her excellent work provided a valuable reference point, helping me frame the problem and gain a deeper understanding of the dataset before diving into model development.
+
+This project was more than a technical assignment — it was a hands-on lesson in **trust, security, and the power of data**. 🛡️💡 It reinforced the importance of responsible AI and gave me the tools to build solutions that matter.
 
 <p align="center">
    <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" />
