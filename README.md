@@ -262,11 +262,6 @@ References
 
 <img width="auto" src="https://profile-counter.glitch.me/online_payment_fraud/count.svg" />
 
-## Please Share & Star the repository to keep me motivated.
-<a href = "https://github.com/sergio11/online_payment_fraud/stargazers">
-   <img src = "https://img.shields.io/github/stars/sergio11/online_payment_fraud" />
-</a>
-
 ## License ⚖️
 
 This project is licensed under the MIT License, an open-source software license that allows developers to freely use, copy, modify, and distribute the software. 🛠️ This includes use in both personal and commercial projects, with the only requirement being that the original copyright notice is retained. 📄
